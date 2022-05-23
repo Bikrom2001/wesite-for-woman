@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+}
+.container{
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+}
+.header{
+    background: #FEF7F6;
+    padding: 20px 10px;
+    overflow: hidden;
+    transform: translateX();
+}
+.header p{
+    float: left;
+    text-align: right;
+   padding: 0 40px;
+    font-size: 12px;
+    padding-left: 50px;
+}
+ul{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px 18px;
+    display: block;
+    font-size: 20px;
+    font-family: tahoma;
+    
+
+}
+ul li a:hover{
+    color: tomato;
+}
+.logo{
+    position: absolute;
+    left: 60px;
+    bottom: 520px;
+    font-size: 30px;
+    font-family: tahoma;
+}
+
+.dropdow-content a {
+    display: inline-block;
+}
+.dropdow-content{
+    background: #f1f1f1;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute;
+}
+nev-bar:hover .dropdow-content{
+    display:block;
+    
+}
+.hero-text{
+    background-image: url('image/1st.png');
+    padding: 120px 20px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    width: 100%;
+
+    
+}
+.hero-text h1{
+    font-size: 60px;
+    font-family: tahoma;
+    
+}
+.hero-text p{
+    margin-left: 130px;
+    color: #8a8585;
+    font-family: arial;
+    
+}
+.btn {
+    text-decoration: none;
+    background: #f44336;
+    color: #fff;
+    font-size: 25px;
+    padding: 14px 36px;
+    display: inline-block;
+    border-radius: 28px;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family: tahoma;
+}
+.btn:hover{
+    background-color: white;
+    color: #4F56B3;
+}
+/*2nd page Start *****************************/
+.menu2{
+    text-align: center;
+    font-family: tahoma;
+}
+.prodoct{
+    width: 95%;
+    overflow: hidden;
+    
+    
+}
+.photos:hover{
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2), -3px 8px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.girls01{
+    float: left;
+    width: 31%;
+    margin-left: 85px;
+   
+    
+    
+    
+}
+.girls01 p{
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+    transition: 0.7s;
+}
+.girls01 p:hover{
+    color:tomato;
+    
+}
+.girls02{
+    float: left;
+    width: 31%;
+    
+}
+.girls02 p{
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+    transition: 0.7s;
+}
+.girls02 p:hover{
+    color: tomato;
+}
+.girls03{
+    float: left;
+    width: 31%;
+}
+.girls03 p{
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+    transition: 0.7s;
+}
+.girls03 p:hover{
+    color: tomato;
+}
+.color{
+    color: gray;
+}
+/*2nd age end *************************/
+/*3rd page start ********************************/
+.hero-text2{
+    background-image: url('image/top.PNG');
+    padding: 120px 20px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    width: 100%;
+     
+}
+.hero-text2 h1{
+    font-size: 60px;
+    font-family: tahoma;
+    
+}
+.hero-text2 p{
+    margin-left: 130px;
+    color: #8a8585;
+    font-family: arial;
+    
+}
+.hero-text2 h1 .text{
+    font-size: 28px;
+    margin-left: 50px;
+}
+.hero-text2 h1 .off{
+    margin-left: 100px;
+}
+.btn {
+    text-decoration: none;
+    background: #f44336;
+    color: #fff;
+    font-size: 25px;
+    padding: 14px 36px;
+    display: inline-block;
+    border-radius: 28px;
+    text-transform: uppercase;
+    margin-left: 120px;
+    margin-top: 40px;
+    font-family: tahoma;
+}
+.btn:hover{
+    background-color: white;
+    color: #4F56B3;
+}
+/*3rd age end**************************************/
+
+/*Start 4th Page**************/
+
+.menu-text{
+    font-family: tahoma;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.prodoct2{
+    width: 22%;
+    float: left;
+}
+.girls01-hand{
+    margin-left: 100px;
+}
+.girls01-hand p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+
+}
+.girls01-hand p:hover{
+    color: tomato;
+}
+.girls02-bag p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+}
+.girls02-bag p:hover{
+    color: tomato;
+}
+.girls03-su p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+}
+.girls03-su p:hover{
+    color: tomato;
+}
+.girls04 p{
+    text-align: center;
+    padding-top: 15px;
+    font-family: tahoma;
+}
+.girls04 p:hover{
+    color: tomato;
+}
+.photos2:hover{
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2), -3px 8px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+
+/*end 4th Page**************/
+/*start 5th Page**************/
+.top{
+    font-family: tahoma;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    transform: translateX(-300px);
+    margin-bottom: 50px;
+}
+.prodoct3{
+    width: 22%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.girls01-many{
+    margin-left: 100px;
+    
+}
+
+
+.photos3:hover{
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2), -3px 8px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+/*end 5th Page**************/
+
+/*start 6th page ****************************/
+.menu3{
+    text-align: center;
+    font-family: tahoma;
+    
+    margin-bottom: 50px;
+    transform: translateX(-500px);
+}
+
+.prodoct4{
+    width: 95%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    
+    
+}
+.photos:hover{
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2), -3px 8px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.girls011{
+    float: left;
+    width: 31%;
+    margin-left: 85px;
+    
+}
+.girls011 p{
+    clear: both;
+    
+    padding-top: 15px;
+    font-family: tahoma;
+    transition: 0.7s;
+}
+.girls011 p:hover{
+    color:tomato;
+    
+}
+.girls022{
+    float: left;
+    width: 31%;
+   
+    
+}
+.girls022 p{
+    clear: both;
+    
+    padding-top: 15px;
+    font-family: tahoma;
+    transition: 0.7s;
+    
+}
+.girls022 p:hover{
+    color: tomato;
+}
+.girls033{
+    float: left;
+    width: 31%;
+}
+.girls033 p{
+    clear: both;
+    
+    padding-top: 15px;
+    font-family: tahoma;
+    transition: 0.7s;
+}
+.girls033 p:hover{
+    color: tomato;
+}
+.color5{
+    color: gray;
+}
+/*end 6th page ****************************/
+.copy{
+    text-align: center;
+    width: 100%;
+    background: #E9E2D8;
+    padding: 20px 0;
+    color: grey;
+}
